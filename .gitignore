@@ -1,0 +1,13 @@
+node_modules/
+package-lock.json
+
+# Docker Passwords
+.env
+
+# Postgres Data Test
+postgres-data/
+
+# Python
+env/
+.pyc
+__pycache__/
