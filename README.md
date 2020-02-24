@@ -6,11 +6,11 @@ If you have ideas feel free to fork and add PR :) !!!
 Run project:
 1. Navigate to deployment folder 
 1. Create .env file inside deployment folder with this content:
-```
-PG_USER=myuser
-PG_PASSWORD=mypass
-BACKEND_PORT=8000
-```
+    ```
+    PG_USER=myuser
+    PG_PASSWORD=mypass
+    BACKEND_PORT=8000
+    ```
 1. Run this command:
     `$ docker-compose up --build`
 1. The site will be available on http://127.0.0.1:8080
